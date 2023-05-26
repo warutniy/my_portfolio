@@ -30,8 +30,8 @@ const data = [
     id: 3,
     image: IMG3,
     title: 'The Colmar Academy project from Codecademy',
-    github: 'https://github.com',
-    demo: 'https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    github: 'https://github.com/warutniy/colmar',
+    demo: 'https://colmar-mocha.vercel.app/'
   },
 
   // {
