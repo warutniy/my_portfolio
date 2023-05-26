@@ -84,11 +84,11 @@ const Services = () => {
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon' />
-              <h4>MySQL</h4>
+              <h4>SQL</h4>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon' />
-              <h4>Tableau Public</h4>
+              <h4>RapidMiner</h4>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon' />
