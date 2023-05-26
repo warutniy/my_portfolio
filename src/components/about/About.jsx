@@ -1,0 +1,53 @@
+import React from 'react';
+import './about.css';
+import ME from '../../assets/me-about.jpg';
+import {FaAward} from 'react-icons/fa';
+import {FiUsers} from 'react-icons/fi';
+import {VscFolderLibrary} from 'react-icons/vsc';
+
+const About = () => {
+  return (
+    <section id='about'>
+      <h5>Get To Know</h5>
+      <h2>About Me</h2>
+
+      <div className='container about__container'>
+        <div className='about__me'>
+          <div className='about__me-image'>
+            <img src={ME} alt='About Image' />
+          </div>
+        </div>
+
+        <div className='about__content'>
+          <div className='about__cards'>
+            <article className='about__card'>
+              <FaAward className='about__icon' />
+              <h5>Years experience</h5>
+              <small>04+ </small>
+            </article>
+
+            <article className='about__card'>
+              <FiUsers className='about__icon' />
+              <h5>Completed projects</h5>
+              <small>04+ </small>
+            </article>
+
+            <article className='about__card'>
+              <VscFolderLibrary className='about__icon' />
+              <h5>Companies worked</h5>
+              <small>03+ </small>
+            </article>
+          </div>
+
+          <p>
+          High level experience more than 4 years in Mechanical Engineering with knowledge of various programming languages HTML, CSS, JavaScript, React, Express.js, MongoDB, MySQL, PHP, as well as data analysis tools such as Python, R, Looker Studio, Tableau Public, and Spreadsheets , delivering quality work.
+          </p>
+
+          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default About
