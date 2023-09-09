@@ -34,13 +34,13 @@ const data = [
     demo: 'https://colmar-mocha.vercel.app/'
   },
 
-  // {
-  //   id: 4,
-  //   image: IMG4,
-  //   title: 'Maintaining tasks and tracking progress',
-  //   github: 'https://github.com',
-  //   demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
-  // },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'Maintaining tasks and tracking progress',
+    github: 'https://github.com',
+    demo: 'https://dribbble.com/shots/16955822-Maintaining-tasks-and-tracking-progress'
+  },
 
 ];
 

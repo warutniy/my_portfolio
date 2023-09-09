@@ -46,7 +46,6 @@ header {
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-   
 }
 
 /* =============== SCROLL DOWN =============== */
@@ -62,7 +61,7 @@ header {
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 90vh;
     }
 }
 
@@ -70,6 +69,21 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
+        padding-top: 5rem;
+    }
+
+    .header__container h1 {
+        font-size: 2.25rem;
+    }
+
+    .header__container h2 {
+        font-size: 1.25rem;
+    }
+
+    .me {
+        width: 20rem;
+        height: 26rem;
+        left: calc(50% - 10rem);
     }
 
     .header__socials,

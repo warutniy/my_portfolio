@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-          High level experience more than 4 years in Mechanical Engineering with knowledge of various programming languages HTML, CSS, JavaScript, React, Express.js, MongoDB, SQL, PHP, as well as data analysis tools such as Python, R, Looker Studio, RapidMiner, and Spreadsheets , delivering quality work.
+          High level experience more than 4 years in Mechanical Engineering with knowledge of various programming languages HTML, CSS, JavaScript, React, Express.js, MongoDB, SQL, PHP, as well as data analysis tools such as R Programming, Looker Studio, RapidMiner, and Spreadsheets , delivering quality work.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
