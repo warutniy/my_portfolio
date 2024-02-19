@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import HTML from '../../assets/HTML_logo.png';
 import CSS from '../../assets/CSS_logo.png';
 import JS from '../../assets/JS_logo.png';
+import CS from '../../assets/C-Sharp_logo.png';
 import BO from '../../assets/Bootstrap_logo.png';
 import RE from '../../assets/React_logo.png';
 import NO from '../../assets/Nodejs_logo.png';
@@ -56,6 +57,9 @@ const Services = () => {
           </div>
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={JS} alt='JavaScript Logo' />
+          </div>
+          <div className={`item hidden ${isVisible ? 'show' : ''}`}>
+            <img src={CS} alt='C-Sharp Logo' />
           </div>
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={RE} alt='React Logo' />

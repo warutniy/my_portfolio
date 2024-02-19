@@ -38,8 +38,8 @@ const data = [
     id: 4,
     image: IMG4,
     title: 'The Colmar Academy project from Codecademy',
-    github: 'https://github.com/warutniy/colmar',
-    demo: 'https://colmar-mocha.vercel.app/'
+    github: 'https://github.com/warutniy/UniversityWebAPI',
+    demo: 'https://universitywebapi.azurewebsites.net/'
   },
 
 ];
