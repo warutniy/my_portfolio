@@ -9,6 +9,9 @@ import Codecademy_SQL from '../../assets/Certificate_Codecademy_SQL.png';
 import Codecademy_React from '../../assets/Certificate_Codecademy_React.jpg';
 import Generation_Cohort4 from '../../assets/Certificate_Generation.jpg';
 import Data1 from '../../assets/Certificate_Data.png';
+import Skooldio1 from '../../assets/Certificate_Skooldio1.png';
+import Skooldio2 from '../../assets/Certificate_Skooldio2.png';
+import Skooldio3 from '../../assets/Certificate_Skooldio3.png';
 const Testimonials = () => {
     const slides = [
         {url: Generation_Cohort4, title: "Generation", 
@@ -44,6 +47,18 @@ const Testimonials = () => {
         },
         {url: Codecademy_CSS, title: "Codecademy_CSS", 
             descriptionHeader:<h1>Learn CSS</h1>,
+            descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
+        },
+        {url: Skooldio1, title: "How to Become a Better Programmer", 
+            descriptionHeader:<h1>How to Become a Better Programmer</h1>,
+            descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
+        },
+        {url: Skooldio2, title: "OOP The Right Way", 
+            descriptionHeader:<h1>OOP The Right Way</h1>,
+            descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
+        },
+        {url: Skooldio3, title: "Software Architecture Design", 
+            descriptionHeader:<h1>Software Architecture Design</h1>,
             descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
         }
     ]
