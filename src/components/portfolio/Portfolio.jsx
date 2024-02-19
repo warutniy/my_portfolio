@@ -5,9 +5,7 @@ import IMG2 from '../../assets/portfolio2.png';
 import IMG3 from '../../assets/portfolio3.png';
 import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.png';
-import IMG6 from '../../assets/portfolio6.jpg';
-
-// DO NOT USE THE IMAGES IN PRODUCTION
+import IMG6 from '../../assets/portfolio6.png';
 
 const data = [
   {
@@ -21,25 +19,25 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'The meeting room booking web application built with MERN stack',
-    github: 'https://github.com/warutniy/meeting_room_booking',
-    demo: 'https://bookingroom-one.vercel.app/'
+    title: 'The Find Your Hat project from Codecademy',
+    github: 'https://github.com/warutniy/products_uploading',
+    demo: 'https://products-uploading.vercel.app/'
   },
 
   {
     id: 3,
     image: IMG3,
     title: 'The Find Your Hat project from Codecademy',
-    github: 'https://github.com/warutniy/career-changer-react-assessment',
-    demo: 'https://replit.com/@Warutniy/JSD04Assessment'
+    github: 'https://github.com/warutniy/UniversityWebAPI',
+    demo: 'https://universitywebapi.azurewebsites.net/'
   },
 
   {
     id: 4,
     image: IMG4,
-    title: 'The Colmar Academy project from Codecademy',
-    github: 'https://github.com/warutniy/UniversityWebAPI',
-    demo: 'https://universitywebapi.azurewebsites.net/'
+    title: 'The meeting room booking web application built with MERN stack',
+    github: 'https://github.com/warutniy/meeting_room_booking',
+    demo: 'https://bookingroom-one.vercel.app/'
   },
 
 ];

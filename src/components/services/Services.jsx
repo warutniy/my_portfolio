@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import HTML from '../../assets/HTML_logo.png';
 import CSS from '../../assets/CSS_logo.png';
 import JS from '../../assets/JS_logo.png';
+import TS from '../../assets/TS_logo.png';
 import CS from '../../assets/C-Sharp_logo.png';
 import BO from '../../assets/Bootstrap_logo.png';
 import RE from '../../assets/React_logo.png';
@@ -13,7 +14,11 @@ import RP from '../../assets/Rapid_logo.png';
 import VE from '../../assets/Ver_logo.png';
 import FI from '../../assets/Figma_logo.png';
 import EX from '../../assets/Express_logo.png';
-import VS from '../../assets/Visual_Studio_Code_logo.png';
+import VSC from '../../assets/Visual_Studio_Code_logo.png';
+import VS from '../../assets/Visual_Studio_2022_logo.png';
+import PM from '../../assets/Postman_logo.png';
+import DK from '../../assets/Docker_logo.png';
+import AZ from '../../assets/Azure_logo.png';
 import './services.css';
 
 const Services = () => {
@@ -58,6 +63,9 @@ const Services = () => {
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={JS} alt='JavaScript Logo' />
           </div>
+          {/* <div className={`item hidden ${isVisible ? 'show' : ''}`}>
+            <img src={TS} alt='TypeScript Logo' />
+          </div> */}
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={CS} alt='C-Sharp Logo' />
           </div>
@@ -77,6 +85,9 @@ const Services = () => {
             <img src={SQ} alt='SQL Logo' />
           </div>
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
+            <img src={VSC} alt='Visual_Studio_Code Logo' />
+          </div>
+          <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={VS} alt='Visual_Studio Logo' />
           </div>
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
@@ -84,6 +95,14 @@ const Services = () => {
           </div>
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={GI} alt='Git Logo' />
+          </div><div className={`item hidden ${isVisible ? 'show' : ''}`}>
+            <img src={PM} alt='Postman Logo' />
+          </div>
+          <div className={`item hidden ${isVisible ? 'show' : ''}`}>
+            <img src={DK} alt='Docker Logo' />
+          </div>
+          <div className={`item hidden ${isVisible ? 'show' : ''}`}>
+            <img src={AZ} alt='Azure Logo' />
           </div>
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={RP} alt='Rapid-miner Logo' />
