@@ -19,7 +19,7 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: 'The Find Your Hat project from Codecademy',
+    title: 'The products uploading web application built with MERN stack',
     github: 'https://github.com/warutniy/products_uploading',
     demo: 'https://products-uploading.vercel.app/'
   },
@@ -27,7 +27,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: 'The Find Your Hat project from Codecademy',
+    title: 'The university relationship web API built with ASP.NET core web API',
     github: 'https://github.com/warutniy/UniversityWebAPI',
     demo: 'https://universitywebapi.azurewebsites.net/'
   },

@@ -25,41 +25,41 @@ const Testimonials = () => {
             <br/>Sub-Sector : Data Science
             <br/>Occupation : Data Analyst</p> 
         },
-        {url: Codecademy_SQL, title: "Codecademy_SQL", 
-            descriptionHeader:<h1>SQL</h1>,
-            descriptionContent:<p>learned how to manage large datasets and analyze real data using the standard data management language.</p> 
+        {url: Codecademy_JS, title: "Codecademy_JS", 
+            descriptionHeader:<h1>JavaScript</h1>,
+            descriptionContent:<p>Learned how to use JavaScript — a powerful and flexible programming language for adding website interactivity.</p> 
         },
         {url: Codecademy_React, title: "Codecademy_React", 
             descriptionHeader:<h1>React</h1>,
             descriptionContent:<p>Learned to use JSX, the basic syntax, React Components, use Hooks, function components, apply styles to React apps and choose the right approach to keep styles organized and manageable, create and interact with forms in React applications.</p> 
         },
-        {url: Codecademy_JS, title: "Codecademy_JS", 
-            descriptionHeader:<h1>JavaScript</h1>,
-            descriptionContent:<p>Learned how to use JavaScript — a powerful and flexible programming language for adding website interactivity.</p> 
+        {url: Codecademy_SQL, title: "Codecademy_SQL", 
+            descriptionHeader:<h1>SQL</h1>,
+            descriptionContent:<p>learned how to manage large datasets and analyze real data using the standard data management language.</p> 
         },
-        {url: Codecademy_Request, title: "Codecademy_Request", 
-            descriptionHeader:<h1>Learn JavaScript: Requests</h1>,
-            descriptionContent:<p>Asynchronously request data using the async/await syntax to dynamically use data from APIs.</p> 
-        },
-        {url: Codecademy_Asyn, title: "Codecademy_Asyn", 
-            descriptionHeader:<h1>JavaScript: Asynchronous Programming!</h1>,
-            descriptionContent:<p>Learned create efficient asynchronous programs using Promises and the async/await syntax.</p> 
-        },
-        {url: Codecademy_CSS, title: "Codecademy_CSS", 
-            descriptionHeader:<h1>Learn CSS</h1>,
-            descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
-        },
+        // {url: Codecademy_Request, title: "Codecademy_Request", 
+        //     descriptionHeader:<h1>Learn JavaScript: Requests</h1>,
+        //     descriptionContent:<p>Asynchronously request data using the async/await syntax to dynamically use data from APIs.</p> 
+        // },
+        // {url: Codecademy_Asyn, title: "Codecademy_Asyn", 
+        //     descriptionHeader:<h1>JavaScript: Asynchronous Programming!</h1>,
+        //     descriptionContent:<p>Learned create efficient asynchronous programs using Promises and the async/await syntax.</p> 
+        // },
+        // {url: Codecademy_CSS, title: "Codecademy_CSS", 
+        //     descriptionHeader:<h1>Learn CSS</h1>,
+        //     descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
+        // },
         {url: Skooldio1, title: "How to Become a Better Programmer", 
             descriptionHeader:<h1>How to Become a Better Programmer</h1>,
-            descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
+            descriptionContent:<p>Learned how to be a better programmer such as System Design, Technical Skill, Soft Skill and Common Mistakes.</p> 
         },
         {url: Skooldio2, title: "OOP The Right Way", 
             descriptionHeader:<h1>OOP The Right Way</h1>,
-            descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
+            descriptionContent:<p>Learned how to implement Object-Oriented Programming (OOP) with Encapsulation, Inheritance and Polymorphism property in the right way.</p> 
         },
         {url: Skooldio3, title: "Software Architecture Design", 
             descriptionHeader:<h1>Software Architecture Design</h1>,
-            descriptionContent:<p>Learned how to implement elegant transitions, create new layouts and serve users with dynamic needs.</p> 
+            descriptionContent:<p>Learned about Software Architecture Pattern in Collaboration Pattern such as Specialist Collaboration, Business Collaboration and Organization Collaboration.</p> 
         }
     ]
     
