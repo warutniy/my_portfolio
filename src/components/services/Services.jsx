@@ -63,9 +63,9 @@ const Services = () => {
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={JS} alt='JavaScript Logo' />
           </div>
-          {/* <div className={`item hidden ${isVisible ? 'show' : ''}`}>
+          <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={TS} alt='TypeScript Logo' />
-          </div> */}
+          </div>
           <div className={`item hidden ${isVisible ? 'show' : ''}`}>
             <img src={CS} alt='C-Sharp Logo' />
           </div>

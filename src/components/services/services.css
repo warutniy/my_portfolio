@@ -76,6 +76,9 @@
 .item:nth-child(19){
     transition-delay: 1400ms;
 }
+.item:nth-child(20){
+    transition-delay: 1500ms;
+}
 
 .hidden {
     opacity: 0; /* Make the element completely invisible */

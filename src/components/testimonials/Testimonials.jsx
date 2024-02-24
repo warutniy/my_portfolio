@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import Codecademy_Asyn from '../../assets/Certificate_Codecademy_Asyn.png';
 import Codecademy_CSS from '../../assets/Certificate_Codecademy_CSS.png';
 import Codecademy_JS from '../../assets/Certificate_Codecademy_JS.png';
+import Udemy_TS from '../../assets/Certificate_Udemy_TS.png';
 import Codecademy_Request from '../../assets/Certificate_Codecademy_Request.png';
 import Codecademy_SQL from '../../assets/Certificate_Codecademy_SQL.png';
 import Codecademy_React from '../../assets/Certificate_Codecademy_React.jpg';
@@ -28,6 +29,10 @@ const Testimonials = () => {
         {url: Codecademy_JS, title: "Codecademy_JS", 
             descriptionHeader:<h1>JavaScript</h1>,
             descriptionContent:<p>Learned how to use JavaScript — a powerful and flexible programming language for adding website interactivity.</p> 
+        },
+        {url: Udemy_TS, title: "Udemy_TS", 
+            descriptionHeader:<h1>TypeScript</h1>,
+            descriptionContent:<p>Learned how to use TypeScript, Object-Oriented Programming (OOP), Generic & Constraints and can apply to use TypeScript with React.</p> 
         },
         {url: Codecademy_React, title: "Codecademy_React", 
             descriptionHeader:<h1>React</h1>,
